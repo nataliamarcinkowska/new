@@ -8,7 +8,7 @@ class Round:
  def roundfield(self):
   field1=round(math.pi*self.radius**2,2)
   self.sum1=self.sum1+field1
-class Rectangle:
+class Rectangle1:
  sum2=0
  def __init__(self,length,width):
   self.length=length
@@ -16,7 +16,7 @@ class Rectangle:
  def rectanglefield(self):
   field2=round(self.length*self.width,2)
   self.sum2=self.sum2+field2
-class Rectangle1:
+class Rectangle2:
  sum2=0
  def __init__(self,length,width):
   self.length=length
