@@ -16,6 +16,14 @@ class Rectangle:
  def rectanglefield(self):
   field2=round(self.length*self.width,2)
   self.sum2=self.sum2+field2
+class Rectangle1:
+ sum2=0
+ def __init__(self,length,width):
+  self.length=length
+  self.width=width
+ def rectanglefield(self):
+  field2=round(self.length*self.width,2)
+  self.sum2=self.sum2+field2
 class Triangle:
  sum3=0
  def __init__(self,side1,side2,side3):
